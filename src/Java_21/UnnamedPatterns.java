@@ -15,10 +15,9 @@ public class UnnamedPatterns {
 //        if (emp1 instanceof Employee(Long id, _, _, _)) {
 //            System.out.println("Name of an employee: " + emp1.name);
 //        }
-<<<<<<< HEAD
+
         System.out.println("Name of an employee: " + emp1.name());
-=======
->>>>>>> practice
+
 
         try {
             int num = Integer.parseInt(emp1.name());
