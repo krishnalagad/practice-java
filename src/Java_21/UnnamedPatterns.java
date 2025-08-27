@@ -17,7 +17,7 @@ public class UnnamedPatterns {
 //        }
 
         try {
-            int num = Integer.parseInt(emp1.name);
+            int num = Integer.parseInt(emp1.name());
             System.out.println(num);
         } catch (Exception e) {
             System.out.println("Error parsing !!");
