@@ -1,9 +1,11 @@
+package Java_Collections;
+
 import java.util.*;
 
 public class ComparatorClass {
     static ArrayList<Emp> emps = new ArrayList<>();
 
-    public class Emp {
+    public static class Emp {
         private int id;
         private String name;
         private String number;

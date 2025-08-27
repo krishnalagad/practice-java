@@ -1,7 +1,7 @@
 package Java_LeetCodePractice;
 
 public class RemoveNodeFromBack {
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
